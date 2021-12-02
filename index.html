@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./styles/style.min.css">
+        <title>Document</title>
+    </head>
+    <body class="return__body">
+        <!-- side-bar -->
+        <aside class="side-bar">
+            <div class="side-bar__center">
+                <span class="side-bar__btn">
+                    <svg class="side-bar__btn-icon">
+                        <use xlink:href="./svg/sprite.svg#open-btn"></use>
+                    </svg>
+                </span>
+                <a href="" class="side-bar__logo">
+                    <picture class="side-bar__pic">
+                        <img src="./images/logotype.webp"
+                            class="side-bar__logo-img"
+                            alt="side-bar">
+                        <img src="./images/logo.webp" alt="mini-logo"
+                            class="side-bar__img">
+                    </picture>
+
+                </a>
+                <ul class="side-bar__list">
+                    <li class="side-bar__item">
+                        <a href="#!" class="side-bar__link">
+                            <svg class="side-bar__icon">
+                                <use xlink:href="./svg/sprite.svg#home"></use>
+                            </svg>
+                            <span class="side-bar__link-text">Home</span>
+                        </a>
+                        <span class="side-bar__count" data-count="0"></span>
+                    </li>
+                    <li class="side-bar__item">
+                        <a href="#!" class="side-bar__link">
+                            <svg class="side-bar__icon">
+                                <use xlink:href="./svg/sprite.svg#analystics"></use>
+                            </svg>
+                            <span class="side-bar__link-text"> Analystics</span>
+                        </a>
+                        <span class="side-bar__count" data-count="0"></span>
+                    </li>
+                    <li class="side-bar__item">
+                        <a href="#!" class="side-bar__link">
+                            <svg class="side-bar__icon">
+                                <use xlink:href="./svg/sprite.svg#returns"></use>
+                            </svg>
+                            <span class="side-bar__link-text"> Returns</span>
+                        </a>
+                        <span class="side-bar__count" data-count="16">16</span>
+                    </li>
+                    <li class="side-bar__item">
+                        <a href="#!" class="side-bar__link">
+                            <svg class="side-bar__icon">
+                                <use xlink:href="./svg/sprite.svg#orders"></use>
+                            </svg>
+                            <span class="side-bar__link-text"> Risky Orders</span>
+                        </a>
+                        <span class="side-bar__count" data-count="0"></span>
+                    </li>
+                    <li class="side-bar__item">
+                        <a href="#!" class="side-bar__link">
+                            <svg class="side-bar__icon">
+                                <use
+                                    xlink:href="./svg/sprite.svg#integrations"></use>
+                            </svg>
+                            <span class="side-bar__link-text"> Integrations</span>
+                        </a>
+                        <span class="side-bar__count" data-count="0"></span>
+                    </li>
+                    <li class="side-bar__item">
+                        <a href="#!" class="side-bar__link">
+                            <svg class="side-bar__icon">
+                                <use xlink:href="./svg/sprite.svg#store"></use>
+                            </svg>
+                            <span class="side-bar__link-text"> Store Credits</span>
+                        </a>
+                        <span class="side-bar__count" data-count="0"></span>
+                    </li>
+                    <li class="side-bar__item">
+                        <a href="#!" class="side-bar__link">
+                            <svg class="side-bar__icon">
+                                <use xlink:href="./svg/sprite.svg#automation"></use>
+                            </svg>
+                            <span class="side-bar__link-text"> Automation</span>
+                        </a>
+                        <span class="side-bar__count" data-count="0"></span>
+                    </li>
+                </ul>
+                <div class="side-bar__settings">
+                    <svg class="side-bar__icon">
+                        <use xlink:href="./svg/sprite.svg#settings"></use>
+                    </svg>
+                    <div class="side-bar__dropdown">
+                        <span class="side-bar__dropdown-btn">Settings
+                        </span>
+                        <svg class="side-bar__dropdown-icon">
+                            <use
+                                xlink:href="./svg/sprite.svg#arrow-down"></use>
+                        </svg>
+                        <ul class="side-bar__dropdown-list">
+                            <li class="side-bar__dropdown-item">
+                                <a href="#!" class="side-bar__link">Profile</a>
+                            </li>
+                            <li class="side-bar__dropdown-item">
+                                <a href="#!" class="side-bar__link">Log out</a>
+                            </li>
+                            <li class="side-bar__dropdown-item">
+                                <a href="#!" class="side-bar__link">Log in</a>
+                            </li>
+                            <li class="side-bar__dropdown-item">
+                                <a href="#!" class="side-bar__link">Log out</a>
+                            </li>
+                            <li class="side-bar__dropdown-item">
+                                <a href="#!" class="side-bar__link">Upgrades</a>
+                            </li>
+                            <li class="side-bar__dropdown-item">
+                                <a href="#!" class="side-bar__link">Your stars</a>
+                            </li>
+                            <li class="side-bar__dropdown-item">
+                                <a href="#!" class="side-bar__link">Your Like`s</a>
+                            </li>
+                            <li class="side-bar__dropdown-item">
+                                <a href="#!" class="side-bar__link">Comments</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <a href="#!" class="side-bar__link side-bar__help">
+                <svg class="side-bar__help-icon">
+                    <use xlink:href="./svg/sprite.svg#unknown"></use>
+                </svg>
+                <span class="side-bar__link-text"> Help Center</span>
+            </a>
+        </aside>
+
+
+        <!-- <div class="over__box"></div> -->
+
+
+        <!-- end side-bar -->
+
+        <div class="return__content">
+            <header class="return__header">
+                <form class="return__form">
+                    <label class="return__search">
+                        <svg class="return__search-icon">
+                            <use xlink:href="./svg/sprite.svg#search"></use>
+                        </svg>
+                        <input class="return__search-input" type="text"
+                            placeholder="Search...">
+                    </label>
+                    <div class="return__notification">
+                        <svg class="return__notification-icon">
+                            <use xlink:href="./svg/sprite.svg#bell"></use>
+                        </svg>
+                        <span class="return__notification-count">6</span>
+                    </div>
+                </form>
+                <div class="return__auth user">
+                    <div class="user__avatar">
+                        <img src="./images/avatar.webp" alt="ava"
+                            class="user__img">
+                    </div>
+                    <p class="user__name">Ronnie <span
+                            class="user__second-name">Woodkin</span></p>
+                </div>
+            </header>
+
+
+            <main class="credits">
+                <div class="credits__inner">
+                    <div class="credits__top-panel">
+                        <div class="credits__wrapper">
+                        <h1 class="credits__title title">Store Credits</h1>
+                        <div class="credits__sort">
+                            <span class="credits__sort-btn active" id="order">By Orders</span>
+                            <span class="credits__sort-btn" id="customer">By Customers </span>
+                        </div>
+                        </div>
+                        <p class="credits__total">Total сredit: <span
+                                class="credits__total-count">$100</span></p>
+                    </div>
+                    <div class="table__inner">
+                    <table class="credits__table table ">
+                        <tr class="table__row-titles table__row">
+                            <th class="table__title" data-num="0">Order ID</th>
+                            <th class="table__title" data-num="1">Date</th>
+                            <th class="table__title" data-num="2">Order value</th>
+                            <th class="table__title" data-num="3">Item value</th>
+                            <th class="table__title" data-num="4">Credit given</th>
+                            <th class="table__title" data-num="5">
+                                <div class="select">
+                                    <button class="select__btn">Customer ID
+                                    </button>
+                                    <svg class="select__icon">
+                                        <use
+                                            xlink:href="../svg/sprite.svg#down"></use>
+                                    </svg>
+                                    <ul class="select__list">
+                                        <li class="select__item"
+                                            data-value="Customer ID">Customer ID </li>
+                                        <li class="select__item"
+                                            data-value="Customer ID"> Customer ID </li> 
+                                    </ul>
+                                </div> 
+                               
+                            </th>
+                            <th class="table__title" data-num="6">
+                                <div class="select">
+                                    <button class="select__btn"> Credit type
+                                    </button>
+                                    <svg class="select__icon">
+                                        <use
+                                            xlink:href="../svg/sprite.svg#down"></use>
+                                    </svg>
+                                    <ul class="select__list">
+                                        <li class="select__item"
+                                            data-value="Credit type"> Credit type </li>
+                                        <li class="select__item"
+                                            data-value=" Credit type">  Credit type</li> 
+                                    </ul>
+                                </div>  
+                               </th>
+                            <th class="table__title" data-num="7">Total credit</th>
+                        </tr>
+                        <tr class="table__info-row table__row">
+                            <td class="table__info" data-num="0"  ><a
+                                    href="./pages/full-info.html"
+                                    class="table__link order__id">RA-1234</a></td>
+                            <td class="table__info" data-num="1">July 21, 2021</td>
+                            <td class="table__info" data-num="2"> $79 </td>
+                            <td class="table__info" data-num="3">$19</td>
+                            <td class="table__info" data-num="4">$9</td>
+                            <td class="table__info" data-num="5" ><span class="customer__id">12354</span></td>
+                            <td class="table__info" data-num="6"><span class="table__color color__red">Refund</span></td>
+                            <td class="table__info" data-num="7">$25</td>
+                        </tr>
+                        <tr class="table__info-row table__row">
+                            <td class="table__info" data-num="0"  ><a
+                                    href="./pages/full-info.html"
+                                    class="table__link order__id">RA-1235</a></td>
+                            <td class="table__info" data-num="1">July 21, 2021</td>
+                            <td class="table__info" data-num="2"> $59 </td>
+                            <td class="table__info" data-num="3">$29</td>
+                            <td class="table__info" data-num="4">$39</td>
+                            <td class="table__info" data-num="5" ><span class="customer__id">12350</span></td>
+                            <td class="table__info" data-num="6"><span class="table__color color__green">Incentive</span></td>
+                            <td class="table__info" data-num="7">$45</td>
+                        </tr>
+                         
+                    </table>
+                    </div>
+                </div>
+            </main>
+            <footer class="return__footer">
+                <ul class="return__pages">
+                    <li class="return__pages-num curent__page"><a href="#!"
+                            class="return__pages-link">1</a></li>
+                    <li class="return__pages-num"><a href="#!"
+                            class="return__pages-link">2</a></li>
+                    <li class="return__pages-num"><a href="#!"
+                            class="return__pages-link">3</a></li>
+                    <li class="return__pages-num"><a href="#!"
+                            class="return__pages-link">4</a></li>
+                    <li class="return__pages-num page__points"> ... </li>
+                    <li class="return__pages-num"><a href="#!"
+                            class="return__pages-link">10</a></li>
+                    <li class="return__pages-num"><a href="#!"
+                            class="return__pages-link">11</a></li>
+                    <li class="return__pages-num"><a href="#!"
+                            class="return__pages-link">12</a></li>
+                    <li class="return__pages-num"><a href="#!"
+                            class="return__pages-link">13</a></li>
+                </ul>
+            </footer>
+        </div>
+
+
+
+        <script src="./js/credits.js"></script>
+    </body>
+</html>
