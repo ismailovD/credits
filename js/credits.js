@@ -1,5 +1,6 @@
 const   sideBarBtn = document.querySelector('.side-bar__btn'),
         sideBar = document.querySelector('.side-bar'), 
+        pageContent =document.querySelector('.return__content'), 
         body = document.querySelector('.return__body'),
         selectBtns = document.querySelectorAll('.select__btn'),
         selectParent = '.select',
@@ -23,6 +24,12 @@ const   sideBarBtn = document.querySelector('.side-bar__btn'),
     
 sideBarBtn.addEventListener('click', () => {
     sideBar.classList.toggle('active'); 
+     if(sideBar.classList.contains('active')){  
+            pageContent.style.marginLeft = "275px"; 
+    }else {  
+        dropdownWindow.classList.remove('active')
+        pageContent.style.marginLeft = "65px";  
+    }
 }); 
 
 selectBtns.forEach(btn => { 
