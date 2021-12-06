@@ -8,7 +8,7 @@
         <link rel="icon" href="./images/icon/favicon.ico">
         <title>Credits</title>
     </head>
-    <body class="return__body">
+    <body class="body">
         
         <!-- side-bar -->
         <aside class="side-bar active">
@@ -149,24 +149,25 @@
 
         <!-- end side-bar -->
 
-        <div class="return__content">
-            <header class="return__header">
-                <form class="return__form">
-                    <label class="return__search">
-                        <svg class="return__search-icon">
+        <div class="global__content">
+            <header class="global__header">
+                <form class="global__form">
+                    <label class="global__search">
+                        <svg class="global__search-icon">
                             <use xlink:href="./svg/sprite.svg#search"></use>
                         </svg>
-                        <input class="return__search-input" type="text"
+                        <input class="global__search-input" type="text"
                             placeholder="Search...">
-                    </label>
-                    <div class="return__notification">
-                        <svg class="return__notification-icon">
-                            <use xlink:href="./svg/sprite.svg#bell"></use>
-                        </svg>
-                        <span class="return__notification-count">6</span>
-                    </div>
+                    </label> 
                 </form>
-                <div class="return__auth user">
+                <div class="global__wrapper">
+                <div class="global__notification">
+                    <svg class="global__notification-icon">
+                        <use xlink:href="./svg/sprite.svg#bell"></use>
+                    </svg>
+                    <span class="global__notification-count">6</span>
+                </div>
+                <div class="global__auth user">
                     <div class="user__avatar">
                         <img src="./images/avatar.webp" alt="ava"
                             class="user__img">
@@ -174,6 +175,7 @@
                     <p class="user__name">Ronnie <span
                             class="user__second-name">Woodkin</span></p>
                 </div>
+            </div>
             </header>
 
 
@@ -188,7 +190,7 @@
                         </div>
                         </div>
                         <p class="credits__total">Total сredit: <span
-                                class="credits__total-count">$100</span></p>
+                                class="credits__total-count"><span class="symbol symbol-dollar">$</span>100</span></p>
                     </div>
                     <div class="table__inner">
                     <table class="credits__table table ">
@@ -359,25 +361,25 @@
                     </div>
                 </div>
             </main>
-            <footer class="return__footer">
-                <ul class="return__pages">
-                    <li class="return__pages-num curent__page"><a href="#!"
-                            class="return__pages-link">1</a></li>
-                    <li class="return__pages-num"><a href="#!"
-                            class="return__pages-link">2</a></li>
-                    <li class="return__pages-num"><a href="#!"
-                            class="return__pages-link">3</a></li>
-                    <li class="return__pages-num"><a href="#!"
-                            class="return__pages-link">4</a></li>
-                    <li class="return__pages-num page__points"> ... </li>
-                    <li class="return__pages-num"><a href="#!"
-                            class="return__pages-link">10</a></li>
-                    <li class="return__pages-num"><a href="#!"
-                            class="return__pages-link">11</a></li>
-                    <li class="return__pages-num"><a href="#!"
-                            class="return__pages-link">12</a></li>
-                    <li class="return__pages-num"><a href="#!"
-                            class="return__pages-link">13</a></li>
+            <footer class="global__footer">
+                <ul class="global__pages">
+                    <li class="global__pages-num curent__page"><a href="#!"
+                            class="global__pages-link">1</a></li>
+                    <li class="global__pages-num"><a href="#!"
+                            class="global__pages-link">2</a></li>
+                    <li class="global__pages-num"><a href="#!"
+                            class="global__pages-link">3</a></li>
+                    <li class="global__pages-num"><a href="#!"
+                            class="global__pages-link">4</a></li>
+                    <li class="global__pages-num page__points"> ... </li>
+                    <li class="global__pages-num"><a href="#!"
+                            class="global__pages-link">10</a></li>
+                    <li class="global__pages-num"><a href="#!"
+                            class="global__pages-link">11</a></li>
+                    <li class="global__pages-num"><a href="#!"
+                            class="global__pages-link">12</a></li>
+                    <li class="global__pages-num"><a href="#!"
+                            class="global__pages-link">13</a></li>
                 </ul>
             </footer>
         </div>
