@@ -10,7 +10,6 @@
     </head>
     <body class="body">
         
-        <!-- side-bar -->
         <aside class="side-bar active">
             
             <div class="side-bar__center">
@@ -30,7 +29,7 @@
 
                 </a>
                 <ul class="side-bar__list">
-                    <li class="side-bar__item">
+                    <li class="side-bar__item global-item">
                         <a href="#!" class="side-bar__link">
                             <svg class="side-bar__icon">
                                 <use xlink:href="./svg/sprite.svg#home"></use>
@@ -39,8 +38,8 @@
                         </a>
                         <span class="side-bar__count" data-count="0"></span>
                     </li>
-                    <li class="side-bar__item">
-                        <a href="#!" class="side-bar__link">
+                    <li class="side-bar__item global-item">
+                        <a href="#!" class="side-bar__link ">
                             <svg class="side-bar__icon">
                                 <use xlink:href="./svg/sprite.svg#analystics"></use>
                             </svg>
@@ -48,7 +47,7 @@
                         </a>
                         <span class="side-bar__count" data-count="0"></span>
                     </li>
-                    <li class="side-bar__item">
+                    <li class="side-bar__item global-item visited">
                         <a href="#!" class="side-bar__link">
                             <svg class="side-bar__icon">
                                 <use xlink:href="./svg/sprite.svg#returns"></use>
@@ -57,7 +56,7 @@
                         </a>
                         <span class="side-bar__count" data-count="16">16</span>
                     </li>
-                    <li class="side-bar__item">
+                    <li class="side-bar__item global-item">
                         <a href="#!" class="side-bar__link">
                             <svg class="side-bar__icon">
                                 <use xlink:href="./svg/sprite.svg#orders"></use>
@@ -66,7 +65,7 @@
                         </a>
                         <span class="side-bar__count" data-count="0"></span>
                     </li>
-                    <li class="side-bar__item">
+                    <li class="side-bar__item global-item">
                         <a href="#!" class="side-bar__link">
                             <svg class="side-bar__icon">
                                 <use
@@ -76,7 +75,7 @@
                         </a>
                         <span class="side-bar__count" data-count="0"></span>
                     </li>
-                    <li class="side-bar__item">
+                    <li class="side-bar__item global-item">
                         <a href="#!" class="side-bar__link">
                             <svg class="side-bar__icon">
                                 <use xlink:href="./svg/sprite.svg#store"></use>
@@ -85,7 +84,7 @@
                         </a>
                         <span class="side-bar__count" data-count="0"></span>
                     </li>
-                    <li class="side-bar__item">
+                    <li class="side-bar__item global-item">
                         <a href="#!" class="side-bar__link">
                             <svg class="side-bar__icon">
                                 <use xlink:href="./svg/sprite.svg#automation"></use>
@@ -95,60 +94,54 @@
                         <span class="side-bar__count" data-count="0"></span>
                     </li>
                 </ul>
-                <div class="side-bar__settings">
-                    <svg class="side-bar__icon">
-                        <use xlink:href="./svg/sprite.svg#settings"></use>
-                    </svg>
+                <div class="side-bar__settings "> 
                     <div class="side-bar__dropdown">
+                        <svg class="side-bar__icon">
+                            <use xlink:href="./svg/sprite.svg#settings"></use>
+                        </svg>
                         <span class="side-bar__dropdown-btn">Settings
                         </span>
                         <svg class="side-bar__dropdown-icon">
                             <use
                                 xlink:href="./svg/sprite.svg#arrow-down"></use>
                         </svg>
-                        <ul class="side-bar__dropdown-list">
-                            <li class="side-bar__dropdown-item">
-                                <a href="#!" class="side-bar__link">Profile</a>
-                            </li>
-                            <li class="side-bar__dropdown-item">
-                                <a href="#!" class="side-bar__link">Log out</a>
-                            </li>
-                            <li class="side-bar__dropdown-item">
-                                <a href="#!" class="side-bar__link">Log in</a>
-                            </li>
-                            <li class="side-bar__dropdown-item">
-                                <a href="#!" class="side-bar__link">Log out</a>
-                            </li>
-                            <li class="side-bar__dropdown-item">
-                                <a href="#!" class="side-bar__link">Upgrades</a>
-                            </li>
-                            <li class="side-bar__dropdown-item">
-                                <a href="#!" class="side-bar__link">Your stars</a>
-                            </li>
-                            <li class="side-bar__dropdown-item">
-                                <a href="#!" class="side-bar__link">Your Like`s</a>
-                            </li>
-                            <li class="side-bar__dropdown-item">
-                                <a href="#!" class="side-bar__link">Comments</a>
-                            </li>
-                        </ul>
+                        
                     </div>
+                    <ul class="side-bar__dropdown-list">
+                        <li class="side-bar__dropdown-item ">
+                            <a href="#!" class="side-bar__link global-item">Profile</a>
+                        </li>
+                        <li class="side-bar__dropdown-item ">
+                            <a href="#!" class="side-bar__link global-item">Log out</a>
+                        </li>
+                        <li class="side-bar__dropdown-item ">
+                            <a href="#!" class="side-bar__link global-item">Log in</a>
+                        </li>
+                        <li class="side-bar__dropdown-item ">
+                            <a href="#!" class="side-bar__link global-item">Log out</a>
+                        </li>
+                        <li class="side-bar__dropdown-item ">
+                            <a href="#!" class="side-bar__link global-item">Upgrades</a>
+                        </li>
+                        <li class="side-bar__dropdown-item ">
+                            <a href="#!" class="side-bar__link global-item">Your stars</a>
+                        </li>
+                        <li class="side-bar__dropdown-item ">
+                            <a href="#!" class="side-bar__link global-item">Your Like`s</a>
+                        </li>
+                        <li class="side-bar__dropdown-item ">
+                            <a href="#!" class="side-bar__link global-item">Comments</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-            <a href="#!" class="side-bar__link side-bar__help">
+            <a href="#!" class="side-bar__link side-bar__help global-item">
                 <svg class="side-bar__help-icon">
                     <use xlink:href="./svg/sprite.svg#unknown"></use>
                 </svg>
                 <span class="side-bar__link-text"> Help Center</span>
             </a>
         </aside>
-
-
-        <!-- <div class="over__box"></div> -->
-
-
-        <!-- end side-bar -->
-
         <div class="global__content">
             <header class="global__header">
                 <form class="global__form">
@@ -167,17 +160,58 @@
                     </svg>
                     <span class="global__notification-count">6</span>
                 </div>
+
                 <div class="global__auth user">
-                    <div class="user__avatar">
-                        <img src="./images/avatar.webp" alt="ava"
-                            class="user__img">
+                    <div class="user__info">
+                        <div class="user__avatar">
+                            <img src="./images/avatar.webp" alt="ava"
+                                class="user__img">
+                        </div>
+                        <button class="user__dropdown-btn"> 
+                            <p class="user__name">Ronnie <span
+                                    class="user__second-name">Woodkin</span>
+                            </p> 
+                            <svg class="user__dropdown-icon">
+                                <use xlink:href="./svg/sprite.svg#arrow-down"></use>
+                            </svg>
+                        </button>
+                        
                     </div>
-                    <p class="user__name">Ronnie <span
-                            class="user__second-name">Woodkin</span></p>
+                    <ul class="user__list">
+                        <li class="user__item">
+                            <a href="#!" class="user__link">
+                                <span class="user__icon-box">
+                                    <svg class="user__icon" data-name="user">
+                                        <use xlink:href="./svg/sprite.svg#user"></use>
+                                    </svg>
+                                </span> 
+                                <span class="user__link-name">Profile </span>
+                            </a>
+                        </li>
+                        <li class="user__item">
+                            <a href="#!" class="user__link">
+                                <span class="user__icon-box">
+                                    <svg class="user__icon">
+                                        <use xlink:href="./svg/sprite.svg#credit-card"></use>
+                                    </svg>
+                                </span>  
+                                <span class="user__link-name">Billing</span>
+                            </a>
+                        </li>
+                        <li class="user__item">
+                            <a href="#!" class="user__link">
+                                <span class="user__icon-box">
+                                    <svg class="user__icon">
+                                        <use xlink:href="./svg/sprite.svg#exit"></use>
+                                    </svg>
+                                </span>  
+                                <span class="user__link-name">Log out </span>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
             </header>
-
 
             <main class="credits">
                 <div class="credits__inner">
