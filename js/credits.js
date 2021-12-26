@@ -21,7 +21,23 @@ const   sideBarBtn = document.querySelector('.side-bar__btn'),
         table = document.querySelector('table'),
         tableTitleRow = document.querySelector('.table__title-row'),
         tableInfoRow = '.table__info-row',
-        tableCell = '.table__info';
+        tableCell = '.table__info',
+        globalSearch = document.querySelector('.global__search-input'),
+        globalSearchDropdown = document.querySelector('.global__search-dropdown');
+        
+globalSearch.addEventListener('input', () => { 
+    if(globalSearch.value.length > 0){
+        globalSearchDropdown.classList.add('active');
+        setTimeout(()=> {
+            globalSearchDropdown.classList.add('show');
+        }, 100)
+    }else {
+        globalSearchDropdown.classList.remove('show');
+        setTimeout(()=> {
+            globalSearchDropdown.classList.remove('active');
+        }, 100)
+    }
+}) 
 
 
     
